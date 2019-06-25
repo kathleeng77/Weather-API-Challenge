@@ -106,8 +106,33 @@ for each_city in cities:
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
 
-![api_calls_print_log_start](Images/api_calls_print_log_start.png)
-![api_calls_print_log_end](Images/api_calls_print_log_end.png)
+```md
+Beginning Data Retrieval
+------------------------------
+Processing Record 1 | Cape Town
+Processing Record 2 | Yarensk
+Processing Record 3 | Rikitea
+Processing Record 4 | Rikitea
+Processing Record 5 | Bereda
+Processing Record 6 | Vaini
+Processing Record 7 | Hilo
+Processing Record 8 | Leeton
+Processing Record 9 | Gao
+Processing Record 10 | Maragogi
+...
+Processing Record 625 | Khatanga
+Processing Record 626 | Butaritari
+Processing Record 627 | Nanortalik
+City not found. Skipping...
+Processing Record 628 | Lebu
+Processing Record 629 | Avarua
+Processing Record 630 | Cayenne
+Processing Record 631 | Punta Arenas
+Processing Record 632 | Rawlins
+------------------------------
+Data Retrieval Complete
+------------------------------
+```
 
 
 #### Make Data Frame, Display, and Export
@@ -127,16 +152,7 @@ df.head()
 df.count()
 ```
 
-City             632
-Cloudiness       632
-Country          632
-Date             632
-Humidity         632
-Latitude         632
-Longitude        632
-Max Temp (°F)    632
-Wind Speed       632
-dtype: int64
+![count_summary](count_summary.png)
 
 
 ```python
