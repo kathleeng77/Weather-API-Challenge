@@ -109,7 +109,7 @@ print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
 
 Beginning Data Retrieval <br>
-`------------------------------` <br>
+"------------------------------" <br>
 Processing Record 1 | Cape Town<br>
 Processing Record 2 | Yarensk<br>
 Processing Record 3 | Rikitea<br>
@@ -130,9 +130,9 @@ Processing Record 629 | Avarua<br>
 Processing Record 630 | Cayenne<br>
 Processing Record 631 | Punta Arenas<br>
 Processing Record 632 | Rawlins<br>
-`------------------------------`<br>
+"------------------------------"<br>
 Data Retrieval Complete<br>
-`------------------------------`<br>
+"------------------------------"<br>
 
 #### Make Data Frame, Display, and Export
 
