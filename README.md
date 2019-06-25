@@ -107,9 +107,9 @@ for each_city in cities:
         
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
-
+`
 Beginning Data Retrieval
-______________________________
+------------------------------
 Processing Record 1 | Cape Town
 Processing Record 2 | Yarensk
 Processing Record 3 | Rikitea
@@ -130,10 +130,10 @@ Processing Record 629 | Avarua
 Processing Record 630 | Cayenne
 Processing Record 631 | Punta Arenas
 Processing Record 632 | Rawlins
-______________________________
+------------------------------
 Data Retrieval Complete
-______________________________
-
+------------------------------
+`
 
 #### Make Data Frame, Display, and Export
 
