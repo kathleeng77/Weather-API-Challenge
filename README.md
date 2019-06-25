@@ -152,7 +152,7 @@ df.head()
 df.count()
 ```
 
-![Images/count_summary](count_summary.png)
+![count_summary](Images/count_summary.png)
 
 
 ```python
