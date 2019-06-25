@@ -107,33 +107,32 @@ for each_city in cities:
         
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
-`
-Beginning Data Retrieval
-------------------------------
-Processing Record 1 | Cape Town
-Processing Record 2 | Yarensk
-Processing Record 3 | Rikitea
-Processing Record 4 | Rikitea
-Processing Record 5 | Bereda
-Processing Record 6 | Vaini
-Processing Record 7 | Hilo
-Processing Record 8 | Leeton
-Processing Record 9 | Gao
-Processing Record 10 | Maragogi
-...
-Processing Record 625 | Khatanga
-Processing Record 626 | Butaritari
-Processing Record 627 | Nanortalik
-City not found. Skipping...
-Processing Record 628 | Lebu
-Processing Record 629 | Avarua
-Processing Record 630 | Cayenne
-Processing Record 631 | Punta Arenas
-Processing Record 632 | Rawlins
-------------------------------
-Data Retrieval Complete
-------------------------------
-`
+
+Beginning Data Retrieval <br>
+$------------------------------$ <br>
+Processing Record 1 | Cape Town<br>
+Processing Record 2 | Yarensk<br>
+Processing Record 3 | Rikitea<br>
+Processing Record 4 | Rikitea<br>
+Processing Record 5 | Bereda<br>
+Processing Record 6 | Vaini<br>
+Processing Record 7 | Hilo<br>
+Processing Record 8 | Leeton<br>
+Processing Record 9 | Gao<br>
+Processing Record 10 | Maragogi<br>
+...<br>
+Processing Record 625 | Khatanga<br>
+Processing Record 626 | Butaritari<br>
+Processing Record 627 | Nanortalik<br>
+City not found. Skipping...<br>
+Processing Record 628 | Lebu<br>
+Processing Record 629 | Avarua<br>
+Processing Record 630 | Cayenne<br>
+Processing Record 631 | Punta Arenas<br>
+Processing Record 632 | Rawlins<br>
+$------------------------------$<br>
+Data Retrieval Complete<br>
+$------------------------------$<br>
 
 #### Make Data Frame, Display, and Export
 
