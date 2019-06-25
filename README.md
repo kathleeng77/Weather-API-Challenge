@@ -78,7 +78,9 @@ record = 1
 
 # basic url with api_key and proper units
 url = "http://api.openweathermap.org/data/2.5/weather?appid=" + api_key + "&units=Imperial&q="
+```
 
+```python
 # Process print log
 print("Beginning Data Retrieval\n" + "-"*30)
 
@@ -106,9 +108,8 @@ for each_city in cities:
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
 
-```md
 Beginning Data Retrieval
-------------------------------
+______________________________
 Processing Record 1 | Cape Town
 Processing Record 2 | Yarensk
 Processing Record 3 | Rikitea
@@ -129,10 +130,9 @@ Processing Record 629 | Avarua
 Processing Record 630 | Cayenne
 Processing Record 631 | Punta Arenas
 Processing Record 632 | Rawlins
-------------------------------
+______________________________
 Data Retrieval Complete
-------------------------------
-```
+______________________________
 
 
 #### Make Data Frame, Display, and Export
