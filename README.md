@@ -152,7 +152,7 @@ df.head()
 df.count()
 ```
 
-![count_summary](count_summary.png)
+![Images/count_summary](count_summary.png)
 
 
 ```python
@@ -251,4 +251,4 @@ plt.show()
 
 ## Notes
 
-When completing this homework, I couldn't get the API requests to go through. After countless tries and much googling, I separated the initial set up for the API calls including the url. I put those in a separate cell before. After that, the API calls always worked perfectly.
+When completing this project, I couldn't get the API requests to go through. After countless tries and much googling, I separated the initial set up for the API calls including the url. I put those in a separate cell before. After that, the API calls always worked perfectly.
