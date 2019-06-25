@@ -106,8 +106,8 @@ for each_city in cities:
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
 
-![api_calls_print_log_start](api_calls_print_log_start.png)
-![api_calls_print_log_end](api_calls_print_log_end.png)
+![api_calls_print_log_start](Images/api_calls_print_log_start.png)
+![api_calls_print_log_end](Images/api_calls_print_log_end.png)
 
 
 #### Make Data Frame, Display, and Export
@@ -119,7 +119,7 @@ df = pd.DataFrame({"City": city_name, "Cloudiness": cloudiness, "Country": count
 df.head()
 ```
 
-![data_frame](data_frame.png)
+![data_frame](Images/data_frame.png)
 
 
 ```python
@@ -173,7 +173,7 @@ plt.savefig("lat-temp-scatter.png")
 plt.show()
 ```
 
-![temperature_plot](lat-temp-scatter.png)
+![temperature_plot](Images/lat-temp-scatter.png)
 
 
 #### Latitude vs. Humidity Plot
@@ -192,7 +192,7 @@ plt.savefig("lat-humidity-scatter.png")
 plt.show()
 ```
 
-![humidity_plot](lat-humidity-scatter.png)
+![humidity_plot](Images/lat-humidity-scatter.png)
 
 
 #### Latitude vs. Cloudiness Plot
@@ -211,7 +211,7 @@ plt.savefig("lat-cloudiness-scatter.png")
 plt.show()
 ```
 
-![cloudiness_plot](lat-cloudiness-scatter.png)
+![cloudiness_plot](Images/lat-cloudiness-scatter.png)
 
 
 #### Latitude vs. Wind Speed Plot
@@ -230,7 +230,7 @@ plt.savefig("lat-windspeed-scatter.png")
 plt.show()
 ```
 
-![windspeed_plot](lat-windspeed-scatter.png)
+![windspeed_plot](Images/lat-windspeed-scatter.png)
 
 
 ## Notes
