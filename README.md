@@ -106,16 +106,8 @@ for each_city in cities:
 print("-"*30 + "\nData Retrieval Complete\n" + "-"*30)
 ```
 
-City             632
-Cloudiness       632
-Country          632
-Date             632
-Humidity         632
-Latitude         632
-Longitude        632
-Max Temp (°F)    632
-Wind Speed       632
-dtype: int64
+![api_calls_print_log_start](api_calls_print_log_start.png)
+![api_calls_print_log_end](api_calls_print_log_end.png)
 
 
 #### Make Data Frame, Display, and Export
@@ -135,7 +127,16 @@ df.head()
 df.count()
 ```
 
-![count_summary](count_summary.png)
+City             632
+Cloudiness       632
+Country          632
+Date             632
+Humidity         632
+Latitude         632
+Longitude        632
+Max Temp (°F)    632
+Wind Speed       632
+dtype: int64
 
 
 ```python
